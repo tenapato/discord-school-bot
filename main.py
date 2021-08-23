@@ -48,11 +48,11 @@ async def check_schedule():
                 print(classes_list[i]["Class_name"])
                 if len(classes_list[i]["Days"]) > 1:
                     await channel.send(str(classes_list[i]["Name"] + ": " +str(classes_list[i]["zoom_link"]))+"\n"
-                    + "Schedule: "+ str(classes_list[i]["Days"][0])+ " y "+ str(classes_list[i]["Days"][1]) + " | "+  str(classes_list[i]["Schedule"][0])+ " a "+ str(classes_list[i]["Schedule"][1]) +
+                    + "Schedule: "+ str(classes_list[i]["Days"][0])+ " and "+ str(classes_list[i]["Days"][1]) + " | "+  str(classes_list[i]["Schedule"][0])+ " to "+ str(classes_list[i]["Schedule"][1]) +
                     "\n" + str(classes_list[i]["People"])[1:-1])    
                 else:
                     await channel.send(str(classes_list[i]["Name"] + ": " +str(classes_list[i]["zoom_link"]))+"\n"
-                        + "Schedule: "+ str(classes_list[i]["Days"][0]) + " | "+  str(classes_list[i]["Schedule"][0])+ " a "+ str(classes_list[i]["Schedule"][1]) +
+                        + "Schedule: "+ str(classes_list[i]["Days"][0]) + " | "+  str(classes_list[i]["Schedule"][0])+ " to "+ str(classes_list[i]["Schedule"][1]) +
                         "\n" + str(classes_list[i]["People"])[1:-1]) 
 
 
