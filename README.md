@@ -59,25 +59,26 @@ a) At the beginning of the code the is a template that shows you how classes sho
 
 You can add more classes by copying everything in between the keys "{}" and separating the by a comma. e.g:
 
-    {
-        "Class_name": "Coding 101",
-        "Days" : ["Monday", "Tuesday"],
-        "Schedule" : ["14:00", "16:00"],
-        "Remind": ["13:55"],
-        "zoom_link": "https://itesm.zoom.us/my/testzoomlink",
-        "People": ["<@1000000000000>",],
+        classes_list = [
+            {
+                "Class_name": "Coding 101",
+                "Days" : ["Monday", "Tuesday"],
+                "Schedule" : ["14:00", "16:00"],
+                "Remind": ["13:55"],
+                "zoom_link": "https://itesm.zoom.us/my/testzoomlink",
+                "People": ["<@1000000000000>",],
 
-    },
-    {
-    "Class_name": "Coding 102",
-    "Days" : ["Monday", "Tuesday"],
-    "Schedule" : ["14:00", "16:00"],
-    "Remind": ["13:55"],
-    "zoom_link": "https://itesm.zoom.us/my/testzoomlink",
-    "People": ["<@1000000000000>",],
+            },
+            {
+            "Class_name": "Coding 102",
+            "Days" : ["Monday", "Tuesday"],
+            "Schedule" : ["14:00", "16:00"],
+            "Remind": ["13:55"],
+            "zoom_link": "https://itesm.zoom.us/my/testzoomlink",
+            "People": ["<@1000000000000>",],
 
-    }   
-
+            }   
+        ]
 Notes:
 - Days should be in quotation marks and separated by commas (As of now only up to 2 days are supported)
 - Same applies to the schedule
