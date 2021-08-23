@@ -28,7 +28,7 @@ d) SSH into your pi
             screen -ls (To confirm the screen was created correctly)
     ![Bot start](/img/img4.PNG)
 
-    
+
     b) Connect to that Screen environment
 
             screen -r "Scheduler"
@@ -51,7 +51,7 @@ d) SSH into your pi
     ![Bot start](/img/img3.PNG)
 
     g) To detach from the screen use Ctrl+A+D, after that you can close the terminal normally
-## How to customize the Discord bot code  
+## How to customize the Discord Bot  
 
 a) At the beginning of the code the is a template that shows you how classes should be added
 
@@ -96,3 +96,9 @@ You can get the Channel_id by right a channel and clicking on Copy Id:
 After getting the code, paste it in between the single quotes
 
 c) Get your client id by follwing this [tutorial](https://discord.com/developers/docs/topics/oauth2)
+
+# Developers
+
+- Patricio Tena
+
+<em>Code Version: 1.0</em>
