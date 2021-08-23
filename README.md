@@ -65,7 +65,7 @@ You can add more classes by copying everything in between the keys "{}" and sepa
                 "Days" : ["Monday", "Tuesday"],
                 "Schedule" : ["14:00", "16:00"],
                 "Remind": ["13:55"],
-                "zoom_link": "https://itesm.zoom.us/my/testzoomlink",
+                "zoom_link": "https://zoom.us/my/testzoomlink",
                 "People": ["<@1000000000000>",],
 
             },
@@ -74,7 +74,7 @@ You can add more classes by copying everything in between the keys "{}" and sepa
             "Days" : ["Monday", "Tuesday"],
             "Schedule" : ["14:00", "16:00"],
             "Remind": ["13:55"],
-            "zoom_link": "https://itesm.zoom.us/my/testzoomlink",
+            "zoom_link": "https://zoom.us/my/testzoomlink",
             "People": ["<@1000000000000>",],
 
             }   
