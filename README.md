@@ -8,7 +8,7 @@ This guide will cover how to install and host the bot on a raspberry pi. You can
 
 ### Steps
 1. Headless installation of raspberry pi os
-![Raspberry pi imager](/img/img1.png)
+![Raspberry pi imager](/img/img1.PNG)
 
 a) Using the official [Raspberry Pi Imager](https://www.raspberrypi.org/software/), burn the version of your liking into a bootable Micro SD Card to run on the raspberry pi. (I recommend using the Lite version since it doesn't inlcude a desktop environment, there for making the pi run faster)
 
@@ -26,7 +26,7 @@ d) SSH into your pi
 
             screen -S "Scheduler"
             screen -ls (To confirm the screen was created correctly)
-    ![Bot start](/img/img4.png)
+    ![Bot start](/img/img4.PNG)
     b) Connect to that Screen environment
 
             screen -r "Scheduler"
@@ -46,14 +46,14 @@ d) SSH into your pi
     f) Start the bot and wait for it to initialize correctly
 
             python3 main.py
-    ![Bot start](/img/img3.png)
+    ![Bot start](/img/img3.PNG)
 
     g) To detach from the screen use Ctrl+A+D, after that you can close the terminal normally
 ## How to customize the Discord bot code  
 
 a) At the beginning of the code the is a template that shows you how classes should be added
 
-![Class template](/img/img5.png)
+![Class template](/img/img5.PNG)
 
 You can add more classes by copying everything in between the keys "{}" and separating the by a comma. e.g:
 
@@ -89,7 +89,7 @@ b) You should create a channel to which the bot will send the reminders
 
 You can get the Channel_id by right a channel and clicking on Copy Id:
 
-![Class template](/img/img6.png)
+![Class template](/img/img6.PNG)
 
 After getting the code, paste it in between the single quotes
 
