@@ -27,6 +27,8 @@ d) SSH into your pi
             screen -S "Scheduler"
             screen -ls (To confirm the screen was created correctly)
     ![Bot start](/img/img4.PNG)
+
+    
     b) Connect to that Screen environment
 
             screen -r "Scheduler"
